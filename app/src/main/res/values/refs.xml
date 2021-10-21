@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_no_photo_vector">10</drawable>
+    <drawable name="ic_wikipedia">Wiki</drawable>
+    <drawable name="ic_load_error_vector">loaderror</drawable>
+
+</resources>
