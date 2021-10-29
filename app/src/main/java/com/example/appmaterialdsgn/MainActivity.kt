@@ -1,7 +1,9 @@
 package com.example.appmaterialdsgn
 
 import android.os.Bundle
+import androidx.annotation.StyleRes
 import androidx.appcompat.app.AppCompatActivity
+import com.example.appmaterialdsgn.picture.PictureOfTheDayFragment
 
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +17,10 @@ class MainActivity : AppCompatActivity() {
                 .commitNow()
         }
     }
+    fun changeTheme(@StyleRes themeId: Int) {
+        recreate()
+    }
+
 }
 
 

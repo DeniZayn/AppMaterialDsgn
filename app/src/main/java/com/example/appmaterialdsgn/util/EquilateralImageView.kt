@@ -1,4 +1,4 @@
-package com.example.appmaterialdsgn
+package com.example.appmaterialdsgn.util
 
 import android.content.Context
 import android.util.AttributeSet

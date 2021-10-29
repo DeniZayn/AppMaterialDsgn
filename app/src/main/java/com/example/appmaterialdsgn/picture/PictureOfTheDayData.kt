@@ -1,4 +1,4 @@
-package com.example.appmaterialdsgn
+package com.example.appmaterialdsgn.picture
 
 open class PictureOfTheDayData {
 

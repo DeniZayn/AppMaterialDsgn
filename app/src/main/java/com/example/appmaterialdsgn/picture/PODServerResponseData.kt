@@ -1,4 +1,4 @@
-package com.example.appmaterialdsgn
+package com.example.appmaterialdsgn.picture
 
 import com.google.gson.annotations.SerializedName
 
