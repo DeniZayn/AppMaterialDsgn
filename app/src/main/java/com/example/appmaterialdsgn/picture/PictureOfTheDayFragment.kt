@@ -6,6 +6,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.*
 import android.widget.Toast
+import androidx.constraintlayout.motion.widget.MotionLayout
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
@@ -45,6 +46,10 @@ class PictureOfTheDayFragment : Fragment() {
             })
         }
         setBottomSheetBehavior(view.findViewById(R.id.bottom_sheet_container))
+
+        val ml = view.findViewById<MotionLayout>(R.id.main)
+
+        ml.transitionToStart()
 
     }
 
