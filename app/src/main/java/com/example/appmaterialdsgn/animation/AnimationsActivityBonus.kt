@@ -7,7 +7,6 @@ import android.view.animation.AnticipateOvershootInterpolator
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintSet
 import com.example.appmaterialdsgn.R
-import kotlinx.android.synthetic.main.activity_animations_bonus_end.backgroundImage
 import kotlinx.android.synthetic.main.activity_animations_bonus_start.*
 
 class AnimationsActivityBonus : AppCompatActivity() {
@@ -41,7 +40,7 @@ class AnimationsActivityBonus : AppCompatActivity() {
         constraintSet.clone(this, R.layout.activity_animations_bonus_start)
         val transition = ChangeBounds()
         transition.interpolator = AnticipateOvershootInterpolator(1.0f)
-        transition.duration = 1200
+        transition.duration = 1000
         TransitionManager.beginDelayedTransition(
             constraint_container,
             transition

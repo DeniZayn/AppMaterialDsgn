@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AppMaterialDsgn"
 include ':app'
+include ':recyclerview'
