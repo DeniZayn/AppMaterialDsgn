@@ -50,5 +50,8 @@
     <string name="tab_3">Tab 3</string>
     <string name="card">Card</string>
     <string name="outlined_box_text_field">Outlined Box Text Field</string>
+    <string name="use_spannablestring">Use SpannableString</string>
+    <string name="text_one">Text One</string>
+
 
 </resources>
