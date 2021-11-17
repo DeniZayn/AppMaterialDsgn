@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="_1">На экран 1</string>
+    <string name="_2">На экран 2</string>
+    <string name="_3">На экран 3</string>
+    <string name="Mars">Марс</string>
+    <string name="Earth">Земля</string>
+    <string name="AddText">Дополнительный текст</string>
+    <string name="Chapter">Заголовок</string>
+</resources>
